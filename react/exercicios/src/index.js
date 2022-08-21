@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom'
 // import  Multi from './componentes/Multiplos'
 // import  Saudacao from './componentes/Saudacao'
 import Pai from './componentes/Pai'
+import Filho from './componentes/Filho'
 
 // const elemento = <h1>React</h1>
 
@@ -17,9 +18,11 @@ ReactDOM.render(
             {/* <Multi.BoaNoite nome=" Marcus"/>
             <Multi.BoaTarde nome=" marcus"/> */}
             {/* <Saudacao tipo="bom dia" nome="Marcus"/> */}
-            <Pai nome="Paulo" sobrenome="Sandi">
+            <Pai nome="Paulo" sobrenome=" Sandi">
                 {/* Como passo os componentes Filhos aqui? */}
-                
+            <Filho nome="Pedro" />
+            <Filho nome="Paulo" />
+            <Filho nome="Carla" />
             </Pai>
         </div>
     , document.getElementById('root'))
