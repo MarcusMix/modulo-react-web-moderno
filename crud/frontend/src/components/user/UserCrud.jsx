@@ -11,7 +11,7 @@ export default class UserCrud extends Component {
     render() {
         return (
             <Main {...headerProps} >
-                Cadastro de usuário
+                <div>Cadastro de usuário</div>
             </Main>
         )
     }
