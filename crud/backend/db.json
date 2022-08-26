@@ -1,12 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Arthur Oliveira",
-        "email": "aooliveira@cod3r.com.br"
-
-    }, {
-        "id": 2,
-        "name": "Maria Julia da Silva",
-        "email": "mjds@empresa.com"
-    }]
+    "users": [
+        {
+            "id": 1,
+            "name": "Arthur Oliveira",
+            "email": "aooliveira@cod3r.com.br"
+        },
+        {
+            "id": 2,
+            "name": "Maria Julia da Silva alt",
+            "email": "mjds@empresa.com"
+        },
+        {
+            "name": "Marcus Vinicius Sandi",
+            "email": "vini6789.98@gmail.com",
+            "id": 3
+        }
+    ]
 }
